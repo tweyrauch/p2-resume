@@ -1,7 +1,65 @@
 /* Your Website Styles */
 
 
-/* Show Grid */
+/* Show Grid 
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}*/
+
+body{
+	background: url("../img/bkg.png");
+	color: #425942;
+}
+
+header{
+	text-align: center;
+	background: rgba(66, 89, 66, .3);
+	height: 100px;
+	line-height: 100px;
+}
+
+article{
+	background: rgba(242, 213, 191, .4);
+
+}
+
+section{
+	position: relative;
+}
+
+aside{
+	height:1200px;
+	background: rgba(115, 98, 85, .3);
+}
+
+h1, h3, p{
+	margin: 5px 10px 0 10px;
+}
+
+hr{
+	margin:20px 0 20px 0;
+}
+
+section h2{
+	background: rgba(115, 98, 85, .3);
+	padding:5px 0 5px 20px;
+	margin:0 0 15px 0;
+	display: block;
+	position: relative;
+	left:-20px;
+	width: 100%;
+	text-indent: 10px;
+}
+
+aside h2{
+	background: rgba(242, 213, 191, .3);
+	padding: 5px;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
 }
