@@ -16,11 +16,11 @@ header{
 	background: rgba(66, 89, 66, .3);
 	height: 100px;
 	line-height: 100px;
+	margin-top: 0px;
 }
 
 article{
 	background: rgba(242, 213, 191, .4);
-
 }
 
 section{
@@ -28,7 +28,7 @@ section{
 }
 
 aside{
-	height:1200px;
+	height:1210px;
 	background: rgba(115, 98, 85, .3);
 }
 
