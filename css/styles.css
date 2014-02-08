@@ -21,19 +21,41 @@ header{
 
 article{
 	background: rgba(242, 213, 191, .4);
+	position: relative;
 }
 
 section{
 	position: relative;
 }
 
+footer{
+	background: rgba(66, 89, 66, .3);
+	padding:10px;
+}
+
 aside{
-	height:1210px;
+	height:1408px;
 	background: rgba(115, 98, 85, .3);
 }
 
 h1, h3, p{
-	margin: 5px 10px 0 10px;
+	margin: 10px 10px 0 10px;
+}
+
+h1{
+	font-family: 'Playball', cursive;
+}
+
+h2, h3{
+	font-family: 'Simonetta', cursive;
+}
+
+p{
+	font-family: 'Cantata One', serif;
+}
+
+header h1{
+	margin:0;
 }
 
 hr{
@@ -42,7 +64,7 @@ hr{
 
 section h2{
 	background: rgba(115, 98, 85, .3);
-	padding:5px 0 5px 20px;
+	padding:15px 0 15px 20px;
 	margin:0 0 15px 0;
 	display: block;
 	position: relative;
@@ -60,6 +82,18 @@ ul{
 	list-style: none;
 }
 
-a{
+a:link,
+a:visited{
 	text-decoration: none;
+	color:#736255;
+}
+
+a:hover,
+a:active{
+	background:rgba(140,166,139,.5);
+	padding: 1px;
+}
+
+.nomargin{
+	margin-bottom:0;
 }
